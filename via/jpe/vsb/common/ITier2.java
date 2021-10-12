@@ -18,6 +18,7 @@ public interface ITier2
     public Account withdraw(int accountNumber, double amount) throws RemoteException, SQLException;
     public Account insert(int accountNumber,double amount) throws RemoteException,SQLException;
     public Account createAccount(int accountNumber) throws RemoteException,SQLException;
+    public void saveClient(String msg,ITier1 customer) throws RemoteException;
     public static final String T2_SERVICE_NAME = "//localhost/T2";
 
 

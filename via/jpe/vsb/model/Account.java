@@ -39,4 +39,12 @@ public class Account
 	{
 		balance += amount;
 	}
+
+	@Override
+	public String toString() {
+		return "Account{" +
+				"number=" + number +
+				", balance=" + balance +
+				'}';
+	}
 }
